@@ -9,7 +9,7 @@ This program sets up an HTTP server and a socket server in Python. The HTTP serv
 1. Clone the repository or download the source code files.
 2. Install the required dependencies by running the following command:
    ```
-   pip install -r requirements.txt
+   poetry install
    ```
 
 ## Usage
