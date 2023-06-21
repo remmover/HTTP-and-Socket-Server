@@ -4,28 +4,23 @@ This program sets up an HTTP server and a socket server in Python. The HTTP serv
 
 ## Requirements
 - Python 3.x
+- Poetry
 
 ## Installation and Setup
 1. Clone the repository or download the source code files.
-2. Install the required dependencies by running the following command:
+2. Open a terminal or command prompt and navigate to the directory where the program files are located.
+3. Run the following command to install the project dependencies using Poetry:
    ```
    poetry install
    ```
 
 ## Usage
-1. Open a terminal or command prompt.
-2. Navigate to the directory where the program files are located.
-3. Run the following command to start the HTTP server:
+1. Run the following command to start the HTTP server and the socket server:
    ```
-   python main.py
+   poetry run python main.py
    ```
-   The HTTP server will start running on `http://localhost:3000`.
-4. In a separate terminal or command prompt, run the following command to start the socket server:
-   ```
-   python main.py
-   ```
-   The socket server will start running on `localhost:5000`.
-5. Open a web browser and visit `http://localhost:3000` to access the web application.
+   The HTTP server will start running on `http://localhost:3000`, and the socket server will run on `localhost:5000`.
+2. Open a web browser and visit `http://localhost:3000` to access the web application.
 
 ## Functionality
 The program consists of two main components: the HTTP server and the socket server.
